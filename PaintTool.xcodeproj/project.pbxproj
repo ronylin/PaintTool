@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18360D891E9CB80F0076F028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18360D881E9CB80F0076F028 /* AppDelegate.m */; };
+		18360D8C1E9CB80F0076F028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18360D8B1E9CB80F0076F028 /* main.m */; };
+		18360D8E1E9CB80F0076F028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18360D8D1E9CB80F0076F028 /* Assets.xcassets */; };
+		18360D911E9CB80F0076F028 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18360D8F1E9CB80F0076F028 /* MainMenu.xib */; };
+		18360D9A1E9CDB1D0076F028 /* GraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18360D991E9CDB1D0076F028 /* GraphicView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18360D841E9CB80F0076F028 /* PaintTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18360D871E9CB80F0076F028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18360D881E9CB80F0076F028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18360D8B1E9CB80F0076F028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18360D8D1E9CB80F0076F028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18360D901E9CB80F0076F028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18360D921E9CB80F0076F028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18360D981E9CDB1D0076F028 /* GraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicView.h; sourceTree = "<group>"; };
+		18360D991E9CDB1D0076F028 /* GraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18360D811E9CB80F0076F028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18360D7B1E9CB80F0076F028 = {
+			isa = PBXGroup;
+			children = (
+				18360D861E9CB80F0076F028 /* PaintTool */,
+				18360D851E9CB80F0076F028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18360D851E9CB80F0076F028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18360D841E9CB80F0076F028 /* PaintTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18360D861E9CB80F0076F028 /* PaintTool */ = {
+			isa = PBXGroup;
+			children = (
+				18360D871E9CB80F0076F028 /* AppDelegate.h */,
+				18360D881E9CB80F0076F028 /* AppDelegate.m */,
+				18360D981E9CDB1D0076F028 /* GraphicView.h */,
+				18360D991E9CDB1D0076F028 /* GraphicView.m */,
+				18360D8D1E9CB80F0076F028 /* Assets.xcassets */,
+				18360D8F1E9CB80F0076F028 /* MainMenu.xib */,
+				18360D921E9CB80F0076F028 /* Info.plist */,
+				18360D8A1E9CB80F0076F028 /* Supporting Files */,
+			);
+			path = PaintTool;
+			sourceTree = "<group>";
+		};
+		18360D8A1E9CB80F0076F028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18360D8B1E9CB80F0076F028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18360D831E9CB80F0076F028 /* PaintTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18360D951E9CB80F0076F028 /* Build configuration list for PBXNativeTarget "PaintTool" */;
+			buildPhases = (
+				18360D801E9CB80F0076F028 /* Sources */,
+				18360D811E9CB80F0076F028 /* Frameworks */,
+				18360D821E9CB80F0076F028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintTool;
+			productName = PaintTool;
+			productReference = 18360D841E9CB80F0076F028 /* PaintTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18360D7C1E9CB80F0076F028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rony;
+				TargetAttributes = {
+					18360D831E9CB80F0076F028 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18360D7F1E9CB80F0076F028 /* Build configuration list for PBXProject "PaintTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18360D7B1E9CB80F0076F028;
+			productRefGroup = 18360D851E9CB80F0076F028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18360D831E9CB80F0076F028 /* PaintTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18360D821E9CB80F0076F028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18360D8E1E9CB80F0076F028 /* Assets.xcassets in Resources */,
+				18360D911E9CB80F0076F028 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18360D801E9CB80F0076F028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18360D9A1E9CDB1D0076F028 /* GraphicView.m in Sources */,
+				18360D8C1E9CB80F0076F028 /* main.m in Sources */,
+				18360D891E9CB80F0076F028 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18360D8F1E9CB80F0076F028 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18360D901E9CB80F0076F028 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18360D931E9CB80F0076F028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18360D941E9CB80F0076F028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18360D961E9CB80F0076F028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rony.PaintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18360D971E9CB80F0076F028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rony.PaintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18360D7F1E9CB80F0076F028 /* Build configuration list for PBXProject "PaintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18360D931E9CB80F0076F028 /* Debug */,
+				18360D941E9CB80F0076F028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18360D951E9CB80F0076F028 /* Build configuration list for PBXNativeTarget "PaintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18360D961E9CB80F0076F028 /* Debug */,
+				18360D971E9CB80F0076F028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18360D7C1E9CB80F0076F028 /* Project object */;
+}
